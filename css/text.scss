@@ -1,0 +1,60 @@
+﻿@import "variables";
+
+@font-face {
+    font-family: 'Dual-600';
+    src: url('../fonts/dual-600.woff2') format('woff');
+}
+
+
+
+.logo {
+    font-family: Dual-600,'Segoe UI',Arial,sans-serif;
+    color: $secondary-color;
+    font-size: 24px;
+    margin-bottom: 44px;
+}
+
+.content-main h1 {
+    color: #fff;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1, .h1 {
+    margin: 0 0 .35em;
+    font: 600 120px/1 Dual-600,'Segoe UI',Arial,sans-serif;
+    letter-spacing: -.03em;
+    color: #141e2f;
+}
+
+
+
+// Small devices (landscape phones, up to 34em)
+@media (max-width: 34em) {
+    h1, .h1 {
+        font-size: 40px;
+    }
+}
+
+// Medium devices (tablets, 34em and up)
+@media (min-width: 34em) {
+    h1, .h1 {
+        font-size: 50px;
+    }
+}
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+    h1, .h1 {
+        font-size: 70px;
+    }
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
+    h1, .h1 {
+        font-size: 90px;
+    }
+}

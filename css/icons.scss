@@ -1,0 +1,35 @@
+﻿@import "variables";
+
+.logo-icon {
+    width:50px;
+    margin-bottom: 20px;
+    fill: $primary-color;
+}
+
+// Small devices (landscape phones, up to 34em)
+@media (max-width: 34em) {
+    .logo-icon {
+        width: 40px;
+    }
+}
+
+// Medium devices (tablets, 34em and up)
+@media (min-width: 34em) {
+    .logo-icon {
+        width: 60px;
+    }
+}
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+    .logo-icon {
+        width: 70px;
+    }
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
+    .logo-icon {
+        width: 80px;
+    }
+}
